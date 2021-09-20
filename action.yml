@@ -21,6 +21,7 @@ runs:
   args:
   - "-n"
   - "-t"
+  - "-g"
   - "${{ inputs.test-plan-path }}"
   - "-l"
   - "result.jtl"
